@@ -37,6 +37,8 @@ Ensure you have Python 3.8 to 3.11 installed on your system.
 ### Installation  
 1. Clone the repository or download the source code.  
 2. Navigate to the project directory.
+      ```bash
+      cd EmotionDetector
 3. Set up a Python virtual environment (optional but recommended)
    - Create a virtual environment:
       ```bash
@@ -48,7 +50,7 @@ Ensure you have Python 3.8 to 3.11 installed on your system.
       - On macOS/Linux:
            ```bash
            source venv/bin/activate
-5. Install the required dependencies by running:  
+4. Install the required dependencies by running:  
    ```bash
    pip install -r requirements.txt
 
