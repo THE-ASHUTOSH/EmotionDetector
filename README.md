@@ -25,7 +25,7 @@ This project is an emotion detection application that captures images using a we
 
 ### 3. Libraries not supported in the latest version of python
 - **Problem**: Many libraries were not supported in the latest version of the python.
-- **Solution**: Rolled down to the previous versions of python.
+- **Solution**: Rolled down to the previous versions.
 
 ---
 
