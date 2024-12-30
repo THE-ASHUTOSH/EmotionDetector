@@ -56,7 +56,7 @@ def capture_picture_with_emotion(output_filename="captured_image.jpg"):
                             cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
                 cv2.putText(frame, 'Press R to retake', (50, 100), 
                             cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-                cv2.imshow("Captured Image with Emotion", frame)
+                cv2.imshow("Captured Image without Emotion", frame)
                 
 
             
@@ -68,7 +68,7 @@ def capture_picture_with_emotion(output_filename="captured_image.jpg"):
             break
 
         elif key == ord('q'):
-            print("Exiting without saving.")
+            print("Exiting...")
             break
 
     cam.release()
