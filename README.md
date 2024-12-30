@@ -52,7 +52,7 @@ Ensure you have Python 3.8 to 3.11 installed on your system.
 
 ---
 
-##🔖 Note
+## 🔖 Note
 
 ### For best results, use the application in a well-lit environment.
 
