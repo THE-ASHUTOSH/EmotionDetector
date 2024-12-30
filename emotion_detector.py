@@ -7,7 +7,7 @@ detector = FER()
 emotion_messages = {
     "happy": "Your smile lights up the room!",
     "neutral": "Your presence is calm and confident!",
-    "sad": "You’ve got this, keep going!",
+    "sad": "Feeling low? Remember, brighter days are ahead",
     "angry": "Take a deep breath; you're stronger than your anger.",
     "surprise": "Wow, you seem pleasantly surprised!",
     "disgust": "Let’s turn that frown upside down!",
