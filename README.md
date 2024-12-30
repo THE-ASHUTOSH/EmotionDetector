@@ -68,7 +68,7 @@ Ensure you have Python 3.8 to 3.11 installed on your system.
 1. Run the code using:
    
    ```bash
-   py emotion_detector.py
+   python emotion_detector.py
 
 2. A VideoCapture(camera screen) screen would have opened. (If not visible, search for it the taskbar or else a message would be shown in the console.)
    
