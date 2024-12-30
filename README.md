@@ -8,7 +8,6 @@ This project is an emotion detection application that captures images using a we
 ## 🛠 Libraries and Tools Used  
 - **OpenCV**: For accessing the webcam and handling image processing tasks.  
 - **FER**: A library for facial expression recognition.  
-- **Logging**: To handle errors and provide better debugging.  
 - **TensorFlow**: Underlying dependency for the FER library.  
 - **MoviePy**: A FER dependency to manage multimedia files.  
 
@@ -16,24 +15,24 @@ This project is an emotion detection application that captures images using a we
 
 ## 🚀 Challenges Faced and Solutions  
 
-### 1. Webcam Access Issues  
-- **Problem**: Initially, the webcam did not respond properly due to driver compatibility.  
-- **Solution**: This was resolved by ensuring OpenCV was correctly installed and the drivers were updated.  
-
-### 2. Low Emotion Detection Accuracy  
+### 1. Low Emotion Detection Accuracy  
 - **Problem**: The program sometimes failed to detect emotions accurately under poor lighting.  
 - **Solution**: To address this, better lighting conditions were ensured during testing.  
 
-### 3. Real-Time User Interaction  
-- **Problem**: Designing a simple and intuitive interface for capturing images was a challenge.  
-- **Solution**: Adding clear instructions for the user helped improve usability.  
+### 2. Real-Time User Interaction  
+- **Problem**: Program sometimes failed to detect correct emotion in real time under poor lighting condition .  
+- **Solution**: Added a method a click a particular frame and analyze the it. If the emotion was not found, then prompted the user to retake the image.
+
+### 3. Libraries not supported in the latest version of python
+- **Problem**: Many libraries were not supported in the latest version of the python.
+- **Solution**: Rolled down to the previous versions of python.
 
 ---
 
 ## 💻 Instructions to Run the Code  
 
 ### Prerequisites  
-Ensure you have Python 3.8 or higher installed on your system.  
+Ensure you have Python 3.8 to 3.11 installed on your system.  
 
 ### Installation  
 1. Clone the repository or download the source code.  
@@ -41,3 +40,22 @@ Ensure you have Python 3.8 or higher installed on your system.
 3. Install the required dependencies by running:  
    ```bash
    pip install -r requirements.txt
+
+### Run the code
+1. Run the code using:
+   ```bash
+   py file_name.py
+2. Follow the instructions displayed in the terminal:
+- Press 's' to capture an image and detect emotion.
+- Press 'r' to retake the picture.
+- Press 'q' to quit the application.
+
+---
+
+##🔖 Note
+
+### For best results, use the application in a well-lit environment.
+
+### Check for the python version before running the app.
+
+- ⭐ The code can be made for real time emotion detection with some basic changes, but due to inaccurate emotion detection in low light condition it would show variable results, which is not useful.
