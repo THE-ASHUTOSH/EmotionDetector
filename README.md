@@ -45,7 +45,10 @@ Ensure you have Python 3.8 to 3.11 installed on your system.
 1. Run the code using:
    ```bash
    py file_name.py
-2. Follow the instructions displayed in the terminal:
+
+2. A VideoCapture(camera screen) screen would have opened. (If not visible, search for it the taskbar or else a message would be shown in the console.)
+   
+3. Follow the instructions displayed in the terminal:
 - Press 's' to capture an image and detect emotion.
 - Press 'r' to retake the picture.
 - Press 'q' to quit the application.
