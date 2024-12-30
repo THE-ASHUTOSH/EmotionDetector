@@ -36,8 +36,19 @@ Ensure you have Python 3.8 to 3.11 installed on your system.
 
 ### Installation  
 1. Clone the repository or download the source code.  
-2. Navigate to the project directory.  
-3. Install the required dependencies by running:  
+2. Navigate to the project directory.
+3. Set up a Python virtual environment (optional but recommended)
+   - Create a virtual environment:
+      ```bash
+      python -m venv venv
+   - Activate the virtual environment:
+     - On Windows:
+          ```bash
+          venv\Scripts\activate
+      - On macOS/Linux:
+           ```bash
+           source venv/bin/activate
+5. Install the required dependencies by running:  
    ```bash
    pip install -r requirements.txt
 
