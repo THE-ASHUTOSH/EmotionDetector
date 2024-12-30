@@ -75,4 +75,3 @@ def capture_picture_with_emotion(output_filename="captured_image.jpg"):
     cv2.destroyAllWindows()
 
 capture_picture_with_emotion()
-
