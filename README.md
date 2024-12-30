@@ -61,4 +61,4 @@ Ensure you have Python 3.8 to 3.11 installed on your system.
 
 ### Check for the python version before running the app.
 
-- ⭐ The code can be made for real time emotion detection with some basic changes, but due to inaccurate emotion detection in low light condition it would show variable results, which is not useful.
+- ⭐ The code can be modified for real time emotion detection with some basic changes, but due to inaccurate emotion detection in low light condition it would show variable results, which is not useful.
