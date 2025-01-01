@@ -14,7 +14,7 @@ emotion_messages = {
     "fear": "It’s okay to feel scared. You’re brave!"
 }
 
-def capture_picture_with_emotion(output_filename="captured_image.jpg"):
+def capture_picture_with_emotion():
     cam = cv2.VideoCapture(0)
 
     if not cam.isOpened():
